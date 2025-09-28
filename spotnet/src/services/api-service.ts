@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8080/spotnet/api';
+const API_BASE_URL = 'spotnetapi.linksbridge.top/spotnet/api';
 
 // Real API service that makes HTTP requests to the backend
 class ApiService {
