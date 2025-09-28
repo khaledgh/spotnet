@@ -1,0 +1,55 @@
+[2025-09-28 18:32:33] [payments] WhatsApp eval | payment_id=17 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 18:32:33] [payments] WhatsApp request | endpoint=http://localhost:8080/api/whatsapp.php?action=send_payment_confirmation | payload={"payment_id":"17"}
+[2025-09-28 18:32:33] [payments] WhatsApp response | payment_id=17 | http_code=404 | sent=no | response=<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<address>Apache/2.4.51 (Win32) PHP/7.4.26 Server at localhost Port 8080</address>
+</body></html>
+
+[2025-09-28 18:40:25] [payments] WhatsApp eval | payment_id=18 | subscription_id=8 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 18:40:25] [payments] WhatsApp request | endpoint=http://localhost:8080/spotnet/api/whatsapp.php?action=send_payment_confirmation | payload={"payment_id":"18"}
+[2025-09-28 18:40:25] [payments] WhatsApp response | payment_id=18 | http_code=401 | sent=no | response={"success":false,"message":"Authorization token required"}
+[2025-09-28 18:42:06] [payments] WhatsApp eval | payment_id=19 | subscription_id=8 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 18:42:06] [payments] WhatsApp request | endpoint=http://localhost:8080/spotnet/api/whatsapp.php?action=send_payment_confirmation | payload={"payment_id":"19"}
+[2025-09-28 18:42:06] [payments] WhatsApp response | payment_id=19 | http_code=401 | sent=no | response={"success":false,"message":"Authorization token required"}
+[2025-09-28 18:45:16] [payments] WhatsApp eval | payment_id=1 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 18:45:16] [payments] WhatsApp request | endpoint=http://localhost:8080/spotnet/api/whatsapp.php?action=send_payment_confirmation | payload={"payment_id":"1"}
+[2025-09-28 18:45:16] [payments] WhatsApp response | payment_id=1 | http_code=401 | sent=no | response={"success":false,"message":"Authorization token required"}
+[2025-09-28 18:47:12] [payments] WhatsApp eval | payment_id=2 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 18:47:12] [payments] WhatsApp request | endpoint=http://localhost:8080/spotnet/api/whatsapp.php?action=send_payment_confirmation | payload={"payment_id":"2"}
+[2025-09-28 18:47:12] [payments] WhatsApp response | payment_id=2 | http_code=401 | sent=no | response={"success":false,"message":"Authorization token required"}
+[2025-09-28 18:48:09] [payments] WhatsApp eval | payment_id=2 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 18:48:09] [payments] WhatsApp request | endpoint=http://localhost:8080/spotnet/api/whatsapp.php?action=send_payment_confirmation | payload={"payment_id":"2"}
+[2025-09-28 18:48:09] [payments] WhatsApp response | payment_id=2 | http_code=401 | sent=no | response={"success":false,"message":"Authorization token required"}
+[2025-09-28 18:55:22] [payments] WhatsApp eval | payment_id=3 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 18:55:22] [payments] WhatsApp request | endpoint=http://localhost:8080/spotnet/api/whatsapp.php?action=send_payment_confirmation | payload={"payment_id":"3"}
+[2025-09-28 18:55:22] [payments] WhatsApp response | payment_id=3 | http_code=401 | sent=no | response={"success":false,"message":"Authorization token required"}
+[2025-09-28 19:08:24] [payments] WhatsApp eval | payment_id=4 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 20:56:15] [payments] WhatsApp eval | payment_id=19 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 20:56:15] [whatsapp] using API key: secure
+[2025-09-28 20:56:15] [whatsapp] sending payload to external API: {"apiKey":"secure","number":"96170578989","message":"Hello khaled ghourani,\n\nWe have received your Satellite subscription payment.\nAmount: \\\nDate: September 28, 2025\n\nThank you for your prompt payment.\n- Spotnet Team"}
+[2025-09-28 20:56:15] [whatsapp] external API response: code=0 | response= | error=SSL certificate problem: unable to get local issuer certificate
+[2025-09-28 20:56:15] [whatsapp] curl info: url=https://wpbot.gocami.com/send-message | total_time=0.359956
+[2025-09-28 20:56:15] [payments] WhatsApp internal send | payment_id=19 | sent=no | error=SSL certificate problem: unable to get local issuer certificate | response=false
+[2025-09-28 21:05:48] [payments] WhatsApp eval | payment_id=20 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 21:05:48] [whatsapp] using API key: secure
+[2025-09-28 21:05:48] [whatsapp] sending payload to external API: {"apiKey":"secure","number":"96170578989","message":"Hello khaled ghourani,\n\nWe have received your Satellite subscription payment.\nAmount: \\\nDate: September 28, 2025\n\nThank you for your prompt payment.\n- Spotnet Team"}
+[2025-09-28 21:05:48] [whatsapp] external API response: code=0 | response= | error=SSL certificate problem: unable to get local issuer certificate
+[2025-09-28 21:05:48] [whatsapp] curl info: url=https://wpbot.gocami.com/send-message | total_time=0.12036
+[2025-09-28 21:05:48] [payments] WhatsApp internal send | payment_id=20 | sent=no | error=SSL certificate problem: unable to get local issuer certificate | response=false
+[2025-09-28 21:07:38] [payments] WhatsApp eval | payment_id=21 | subscription_id=9 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 21:07:38] [whatsapp] using API key: secure
+[2025-09-28 21:07:38] [whatsapp] sending payload to external API: {"apiKey":"secure","number":"96170578989","message":"Hello khaled ghourani,\n\nWe have received your Satellite subscription payment.\nAmount: $30.00\nDate: September 28, 2025\n\nThank you for your prompt payment.\n- Spotnet Team"}
+[2025-09-28 21:07:38] [whatsapp] external API response: code=0 | response= | error=SSL certificate problem: unable to get local issuer certificate
+[2025-09-28 21:07:38] [whatsapp] curl info: url=https://wpbot.gocami.com/send-message | total_time=0.119714
+[2025-09-28 21:07:38] [payments] WhatsApp internal send | payment_id=21 | sent=no | error=SSL certificate problem: unable to get local issuer certificate | response=false
+[2025-09-28 21:36:59] [payments] WhatsApp eval | payment_id=22 | subscription_id=11 | opt_in=1 | phone=96170578989 | send_request=true | should_send=yes
+[2025-09-28 21:36:59] [whatsapp] using API key: secure
+[2025-09-28 21:36:59] [whatsapp] sending payload to external API: {"apiKey":"secure","number":"96170578989","message":"Hello khaled ghourani,\n\nWe have received your Internet subscription payment.\nAmount: $30.00\nDate: September 28, 2025\n\nThank you for your prompt payment.\n- Spotnet Team"}
+[2025-09-28 21:37:00] [whatsapp] external API response: code=0 | response= | error=SSL certificate problem: unable to get local issuer certificate
+[2025-09-28 21:37:00] [whatsapp] curl info: url=https://wpbot.gocami.com/send-message | total_time=0.117987
+[2025-09-28 21:37:00] [payments] WhatsApp internal send | payment_id=22 | sent=no | error=SSL certificate problem: unable to get local issuer certificate | response=false
